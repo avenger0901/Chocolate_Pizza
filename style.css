@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#repeat{
+    background-image: url(/lab-assets/hr-img.png);
+    background-repeat: repeat-x;
+    margin: 15px;
+}
+
+.icons{
+background-color: red; 
+}
+.delicious-food{
+    border: solid 1px green;
+
+}
+.position-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+p{
+    margin: 0%;
+}
+h1{
+    margin: 0%;
+}
+h6{
+margin: 0%;
+color: lightgray;
+}
+.adjust-print{
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    justify-content: space-between;
+}
+#print{
+    color:lightgray;
+    font-size: 13px;
+}
+#pizza{
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+    width: 100%; 
+
+}

@@ -3,7 +3,7 @@ header{
     justify-content: space-between;
 }
 
-#repeat{
+.repeat{
     background-image: url(/lab-assets/hr-img.png);
     background-repeat: repeat-x;
     margin: 15px;
@@ -12,19 +12,18 @@ header{
 .icons{
 background-color: red; 
 }
-.delicious-food{
-    border: solid 1px green;
-
+.delicious-food {
+    border: solid 1px transparent;
 }
 .position-logo{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-p{
-    margin: 0%;
+ p{
+    margin: 0%; */
 }
-h1{
+h1, h3{
     margin: 0%;
 }
 h6{
@@ -47,4 +46,31 @@ color: lightgray;
     margin: 35px;
     width: 100%; 
 
+}
+#text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding: 0px 50px 0px 80px;
+}
+#recipe-image {
+    display: flex;
+    justify-content: center;
+}
+#button {
+    display: flex;
+    justify-content: flex-end;
+
+}
+button {
+    width: 180px;
+    height: 50px;
+    font-size: 16px;
+    color: white;
+    background-color: lightcoral;
+}
+#footer-position {
+    display: flex;
+    justify-content: space-between;
 }
